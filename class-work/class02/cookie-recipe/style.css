@@ -1,0 +1,36 @@
+body {
+    background-color: #c8deec;
+    border-style: solid;
+    padding: 20px;
+}
+
+img {
+    width: 300px;
+    border-style: solid;
+}
+
+h1, h3, h4 {
+    font-family: "Courier New";
+}
+
+h2 {
+    font-family: "Century New", Century;
+}
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* - The background color for the page is #c8deec
+- The color for the text reading "Nutrition Information" is #887
+- The font family for the h1, h3 and h4 is Courier New
+- The font family for the h2 is Century Gothic
+- The font family for all other elements is Helvetica Neue
+- The font weight for the link is bold 
+- Bonus: The border on the page and around the image is black */
