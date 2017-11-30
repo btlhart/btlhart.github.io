@@ -17,13 +17,13 @@ h1 {
 }
 
 .blue {
-	background-image: url('blue.jpg');
+	background-image: url('../img/blue.jpg');
 }
 
 .yellow {
-	background-image: url('yellow.jpg');
+	background-image: url('../img/yellow/yellow.jpg');
 }
 
 .grey {
-	background-image: url('grey.jpg');
+	background-image: url('../grey.jpg');
 }
