@@ -16,11 +16,11 @@ main {
 
 section {
     background: green;
-    width: 20%;
+    flex-basis: 20%;
 }
 
 .middle {
-    width: 60%;
+    flex-basis: 60%;
     background-color: purple;
 }
 

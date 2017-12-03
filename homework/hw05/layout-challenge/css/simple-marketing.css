@@ -16,11 +16,13 @@ main {
 
 section {
     background: green;
-    width: 50%;
+    flex-basis: 50%;
+    border-style: solid;
 }
 
 .thirds {
     flex-grow: <numbers>;
+    border-style: solid;
 }
 
 .shorty {

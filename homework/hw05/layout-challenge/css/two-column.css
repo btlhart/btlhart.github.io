@@ -12,16 +12,17 @@ header {
 
 main {
     display: flex;
+    flex-direction: row;
 }
 
 section {
     background: green;
-    width: 70%;
+    flex-basis: 70%;
 }
 
 aside {
     background: blue;
-    width: 30%;
+    flex-basis: 30%;
 }
 
 footer {
