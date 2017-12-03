@@ -1,6 +1,8 @@
 body {
     width: 800px;
     margin-left: 60px;
+    font-family: "Lato";
+    line-height: 1.5;
 }
 
 section {
@@ -30,33 +32,55 @@ li {
 
 p {
     margin-bottom: 20px;
+    font-weight: 100;
 }
 
 h1 {
     margin-top: 70px;
+    color: #DD0000;
+    font-weight: 100;
 }
 
 h2 {
-
+    font-weight: 100;
 }
 
 h3 {
-
+    font-weight: 100;
+    color: black;
 }
 
 h4 {
-
+    font-weight: 100;
+    color: #cccccc;
 }
 
 h5 {
     margin-top: 20px;
+    font-weight: 100;
+    color: #bbbbbb;
 }
 
 /* LINKS */
 
+a {
+    color: #DD0000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aa0000;
+}
+
 li a {
-    
+    text-decoration: underline;
+    color: #dddddd;
     }
+
+li a:hover {
+    color: black;
+}
+
 
 article a {
     text-align: right;
