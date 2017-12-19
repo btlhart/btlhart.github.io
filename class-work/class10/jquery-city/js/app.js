@@ -1,19 +1,10 @@
 // 1. Create .click() handlers for each of the thumbnails: #first, #second, #third, #fourth
-$('#first').click(function(){
-    $('#bigimage').attr('src', 'img/1.jpg')
-})
+$('.thumb').click(function(){
+    var thumbSrc = $(this).attr('src')
 
-$('#second').click(function(){
-        $('#bigimage').attr('src', 'img/2.jpg')
-})
+    console.log(thumbSrc);
 
-$('#third').click(function(){
-    $('#bigimage').attr('src', 'img/3.jpg')
+    $('#bigimage').attr('src', thumbSrc)
 })
-
-$('#fourth').click(function(){
-    $('#bigimage').attr('src', 'img/4.jpg')
-})
-
 
 // 2. Use .attr() to change the `src` attribute of #bigimage to correspond to image that was clicked
