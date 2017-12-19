@@ -10,7 +10,7 @@ var drink = $('#item').val();
 // Store an amount per day into a variable
 var num_per_day = $('#num-per-day').val();
 // Calculate how much you would drink for the rest of your life!
-var solution = (max_age - age)* 365 * num_per_day;
+var solution = (parseInt(max_age) - parseInt(age))* 365 * parseInt(num_per_day);
 
 //console.log(solution);
 //console.log(drink);
