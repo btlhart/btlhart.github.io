@@ -7,6 +7,12 @@ $('#f-button').click(function() {
 	$('#c-input').val('')
 
 	$('#answer').html(farInput + '&deg; fahrenheit is ' + celOutput + '&deg; celcius.');
+
+	if (farInput > 70) {
+		$("body").css("background-color", "red");
+	} else {
+			$("body").css("background-color", "green");
+		}
 });
 
 $('#c-button').click(function() {
@@ -18,6 +24,14 @@ $('#c-button').click(function() {
 	$('#c-input').val('')
 	
 	$('#answer').html(celInput + '&deg; celcius is ' + farOutput + '&deg; fahrenheit.');
+
+	if (celInput > 21) {
+		$("body").css("background-color", "red");
+	} else {
+			$("body").css("background-color", "green");
+		}
+
+	
 });
 
 
