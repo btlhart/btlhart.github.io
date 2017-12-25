@@ -1,10 +1,6 @@
-$('#submit').click(function() {
+$('#f-button').click(function() {
 	var farInput = parseFloat($('#f-input').val());
 	var celOutput = (farInput - 32) * 5 / 9;
-	var celInput = parseFloat($('#c-input').val());
-	var farOutput = celInput * 9 / 5 +32;
-
-	if (!isNaN(farInput)) {
 
 	// Clear input elements
 	$('#f-input').val('')
@@ -17,10 +13,12 @@ $('#submit').click(function() {
 	} else {
 			$("body").css("background-color", "green");
 		}
-	}
+});
 
-	else if (!isNaN(celInput)) {
-		
+$('#c-button').click(function() {
+	var celInput = parseFloat($('#c-input').val());
+	var farOutput = celInput * 9 / 5 +32;
+
 	// Clear input elements
 	$('#f-input').val('')
 	$('#c-input').val('')
@@ -32,7 +30,7 @@ $('#submit').click(function() {
 	} else {
 			$("body").css("background-color", "green");
 		}
-	}
+
 	
 });
 
