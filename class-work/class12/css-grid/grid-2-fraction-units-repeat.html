@@ -5,9 +5,11 @@
   <style>
     .container {
       display: grid;
-      grid-template-columns: 200px auto 200px;
+      /* grid-template-columns: 200px auto 200px;
       grid-template-rows: 200px 200px;
-      grid-gap: 3px;
+      grid-gap: 3px; */
+
+      grid-template: repeat(2, 200px) / repeat(3,1fr)
     }
   </style>
 </head>
