@@ -12,9 +12,19 @@
 
 $(document).ready(function () {
 
+		$('#item').focus();
+
 		$('#clickme').click(function(){
 			$('#list').append('<li>' + $('#item').val());
 			$('#item').val('');
+
+			$('#item').focus();
+		})
+
+		$('#item').empty('input:text').val('');
+
+		$('#list').on('click', 'li', function(){
+			$(this).remove();
 		})
 
 
