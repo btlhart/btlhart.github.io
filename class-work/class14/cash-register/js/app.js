@@ -20,7 +20,8 @@ $(document).ready(function () {
         event.preventDefault();
         var newPrice = parseFloat($('#newEntry').val());
         console.log(newPrice);
-        $('#entries').append('<tr>' + newPrice + '</tr>');
+        // $('#entries').append('<tr>' + newPrice + '</tr>');
+        $('#entries').append('<tr><td></td><td>' + newPrice + '</td></tr>');
         total += newPrice;
         $('#total').text("$" + total)
     })
