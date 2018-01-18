@@ -61,6 +61,7 @@ header {
 	justify-content: space-between;
 	align-items: baseline;
 	padding-bottom: 20px;
+	/* flex-wrap: wrap; */
 }
 
 .header-a {
@@ -82,7 +83,12 @@ header {
 }
 
 .header-nav__a {
-	padding-left: 20px;
+	padding-right: 20px;
+	white-space:nowrap;
+}
+
+.header-nav__a:nth-last-child(1) {
+	padding-right: 0;
 }
 
 .header-nav__a:hover {
@@ -175,9 +181,48 @@ footer {
 	/* give the header nave a margin top of 20px and have the elements start from the left instead of right */
 	/* change the padding of header nav links so it is on the right instead of left */
 
+/* @media screen and (min-width: 551px) and (max-width: 1000px){ */
+@media screen and (max-width: 1000px){
+	body {
+		width: 95%;
+	}
+	header {
+		display: block;
+	}
+	.header-nav {
+		margin-top: 20px;
+		justify-content: flex-start;
+	}
+
+}
+
 /* Small screens and smaller - less than 550px*/
 	/* give body a width of 100% */
 	/* don't have header nav be display flex */
 	/* center the content inside banner */
 	/* have the touts stack on top of eachother */
 	/* make each tout full width using percent width. you may need to use the border-box property to prevent the padding from the tout's padding cause an overflow of content. get rid of borders on the tout */
+
+@media screen and (max-width: 550px){
+	body {
+		width: 100%;
+		margin: 0;
+	}
+	.banner {
+		justify-content: center;
+	}
+	.touts {
+		flex-wrap: wrap;
+		padding: 0;
+	}
+	.tout {
+		border-right: none;
+		width: 100%;
+	}
+	header {
+		display: block;
+	}
+	.header-nav {
+		flex-direction: column;
+	}
+}
