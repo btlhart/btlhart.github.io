@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+/* Layout */
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+}
+
+/* Section 1 */
+
+#titles {
+  padding-bottom: 30px;
+}
+
+#titles span:nth-child(2) {
+    margin-left: 60px;
+}
+
+.title-bars {
+    color: #1790CE;
+    background: #DBF3FF;
+    border: solid 1px rgba(23,144,206,0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10;
+    text-align: center;
+}
+
+/* Section 1 - Contents*/
+
+#titles-old {
+  display: flex;
+}
+
+#focus-groups {
+  flex: 1;
+}
+
+#surveys {
+  flex: 1;
+}
+
+#titles-new {
+}
+
+#remesh {
+}
+
+/* Section 2 */
+
+#diagram {
+  height: 447px;
+  position: relative;
+}
+
+/* Section 2 - Contents*/
+
+#diagram-users {
+}
+
+#users-moderator {
+  position: absolute;
+  left: 5px;
+  top: 133px;
+}
+
+#users-participants {
+  position: absolute;
+  left: 700px;
+  top: 134px;
+}
+
+#diagram-old {
+}
+
+#source-qual {
+}
+
+#source-quant {
+}
+
+#feedback-qual {
+}
+
+#feedback-quant {
+  position: absolute;
+  left: 506px;
+  top: 78px;
+}
+
+#diagram-new {
+}
+
+#source-remesh {
+  position: absolute;
+  left: 215px;
+  top: 10
+    px;
+}
+
+feedback-realtime {
+}
+
+/* Section 3 */
+
+#attributes {
+  padding-top: 30px;
+  position: relative;
+  font-family: Lato-Light;
+  font-size: 20px;
+  color: #1A1A1A;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.icon-spacing {
+  padding-right: 20px;
+}
+
+.attribute-rows {
+  padding-bottom: 20px;
+}
+
+/* Section 3 - Contents */
+
+#attributes-left {
+  width: 410px;
+  position: absolute;
+  left: 0px;
+}
+
+#deep {
+}
+
+#no-significant {
+}
+
+#attributes-right {
+  width: 410px;
+  position: absolute;
+  left: 550px;
+}
+
+#no-deep {
+}
+
+#significant {
+}
+
+/* Animation */
+
+.top {
+  z-index: 1;
+}
