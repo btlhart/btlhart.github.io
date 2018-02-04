@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="116px" height="174px" viewBox="0 0 116 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>exports/users-moderator</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M17.3898305,36.6850829 C17.3898305,16.4553424 33.8124905,0 54,0 C74.18843,0 90.6101695,16.4553424 90.6101695,36.6850829 C90.6101695,56.9139009 74.18843,73.3701657 54,73.3701657 C33.8124905,73.3701657 17.3898305,56.9139009 17.3898305,36.6850829 Z" id="path-1"></path>
+        <filter x="-15.0%" y="-9.5%" width="130.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.23 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0,130.49137 C0,97.8431147 27.8966756,86.2099448 54.0009192,86.2099448 C80.106082,86.2099448 108,97.8431147 108,130.49137 C108,161.698381 82.0474237,166 54.0009192,166 C25.9553339,166 0,161.698381 0,130.49137 Z" id="path-3"></path>
+        <filter x="-10.2%" y="-8.8%" width="120.4%" height="127.6%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.23 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="body---Scene-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-35.000000, -212.000000)">
+        <g id="Group-2">
+            <g id="Group" transform="translate(39.000000, 90.000000)">
+                <g id="exports/users-moderator" transform="translate(0.000000, 124.000000)">
+                    <g id="Diagram/Avatar-Dude/Moderator">
+                        <g id="Fill-4">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#1A1F23" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#FFFFFF" stroke-width="1" d="M17.8898305,36.6850829 C17.8898305,56.6379871 34.088862,72.8701657 54,72.8701657 C73.9117389,72.8701657 90.1101695,56.6383074 90.1101695,36.6850829 C90.1101695,16.7312562 73.9120586,0.5 54,0.5 C34.0885423,0.5 17.8898305,16.7315766 17.8898305,36.6850829 Z"></path>
+                        </g>
+                        <g id="Fill-1">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#1A1F23" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path stroke="#FFFFFF" stroke-width="1" d="M0.5,130.49137 C0.5,144.932498 6.05094936,154.195462 16.7062198,159.500725 C25.481956,163.870168 37.148769,165.5 54.0009192,165.5 C70.8533732,165.5 82.5197588,163.870194 91.2950339,159.50073 C101.949552,154.195537 107.5,144.932622 107.5,130.49137 C107.5,115.351352 101.459493,103.99794 90.5079572,96.5204912 C80.980916,90.0156536 67.9994129,86.7099448 54.0009192,86.7099448 C40.0027692,86.7099448 27.0208132,90.0157009 17.4932959,96.5204985 C6.54100857,103.998041 0.5,115.351479 0.5,130.49137 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
