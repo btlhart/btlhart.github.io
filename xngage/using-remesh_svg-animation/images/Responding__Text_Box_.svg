@@ -26,15 +26,13 @@
             <stop stop-color="#1680CB" stop-opacity="0.85" offset="21.9168527%"></stop>
             <stop stop-color="#5DA7D9" offset="100%"></stop>
         </linearGradient>
-        <text id="text-7" font-family="Karla-Regular, Karla" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
-            <tspan x="29.896" y="20">SEND</tspan>
-        </text>
-        <filter x="-0.9%" y="-7.5%" width="101.7%" height="110.0%" filterUnits="objectBoundingBox" id="filter-8">
+        <path d="M36.872,12.384 C36.6906658,11.4026618 35.970673,10.912 34.712,10.912 C34.0399966,10.912 33.5226685,11.0586652 33.16,11.352 C32.7973315,11.6453348 32.616,11.9973313 32.616,12.408 C32.616,12.8186687 32.7279989,13.1306656 32.952,13.344 C33.1760011,13.5573344 33.5386642,13.7439992 34.04,13.904 L36.136,14.624 C36.8506702,14.8693346 37.4186646,15.2053312 37.84,15.632 C38.2613354,16.0586688 38.472,16.6586628 38.472,17.432 C38.472,18.2053372 38.1413366,18.8559974 37.48,19.384 C36.8186634,19.9120026 35.9333389,20.176 34.824,20.176 C33.7146611,20.176 32.8053369,19.8960028 32.096,19.336 C31.3866631,18.7759972 31.0213334,17.9893384 31,16.976 L32.232,16.976 C32.232,17.6373366 32.4639977,18.1439982 32.928,18.496 C33.3920023,18.8480018 33.9893297,19.024 34.72,19.024 C35.4506703,19.024 36.0293312,18.861335 36.456,18.536 C36.8826688,18.210665 37.096,17.8266689 37.096,17.384 C37.096,16.9413311 36.9653346,16.5920013 36.704,16.336 C36.4426654,16.0799987 36.0560026,15.8666675 35.544,15.696 L33.768,15.04 C32.9359958,14.7626653 32.3066688,14.4320019 31.88,14.048 C31.4533312,13.6639981 31.24,13.101337 31.24,12.36 C31.24,11.618663 31.5386637,11.0000025 32.136,10.504 C32.7333363,10.0079975 33.5706613,9.76 34.648,9.76 C35.7253387,9.76 36.5493305,9.99733096 37.12,10.472 C37.6906695,10.946669 38.0186662,11.583996 38.104,12.384 L36.872,12.384 Z M41.176,9.936 L47.368,9.936 L47.368,11.024 L42.44,11.024 L42.44,14.4 L47.08,14.4 L47.08,15.472 L42.44,15.472 L42.44,18.896 L47.368,18.896 L47.368,20 L41.176,20 L41.176,9.936 Z M51.656,9.936 L56.648,18.016 L56.648,9.936 L57.912,9.936 L57.912,20 L56.504,20 L51.432,11.808 L51.432,20 L50.152,20 L50.152,9.936 L51.656,9.936 Z M64.088,9.936 C65.6026742,9.936 66.8159954,10.3919954 67.728,11.304 C68.6400046,12.2160046 69.096,13.4373257 69.096,14.968 C69.096,16.4986743 68.6400046,17.7199954 67.728,18.632 C66.8159954,19.5440046 65.6026742,20 64.088,20 L61.128,20 L61.128,9.936 L64.088,9.936 Z M62.392,18.896 L64.088,18.896 C65.2080056,18.896 66.0986634,18.525337 66.76,17.784 C67.4213366,17.042663 67.752,16.101339 67.752,14.96 C67.752,13.818661 67.41867,12.8826703 66.752,12.152 C66.08533,11.4213297 65.1973389,11.056 64.088,11.056 L62.392,11.056 L62.392,18.896 Z" id="path-7"></path>
+        <filter x="-1.3%" y="-14.4%" width="102.6%" height="119.2%" filterUnits="objectBoundingBox" id="filter-8">
             <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="Page-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Responding__Text_Box_">
             <g id="U.I.-Imagery/Live-Conversation-Illustration-(Using-Remesh)" transform="translate(46.000000, -15.000000)">
                 <g>
@@ -90,19 +88,17 @@
                     </g>
                 </g>
             </g>
-            <g id="Buttons/Primary/Big/Default" transform="translate(617.000000, 1042.000000)">
-                <g id="Buttons/Create-Conversation/Default-Copy-12">
-                    <g id="Group-10">
-                        <g id="Rectangle-2-Copy-2">
-                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
-                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
-                        </g>
-                        <rect id="Rectangle-2-Copy-3" fill="url(#linearGradient-6)" x="1" y="1" width="98" height="28" rx="5"></rect>
+            <g id="Buttons/Create-Conversation/Default-Copy-12" transform="translate(617.000000, 1042.000000)">
+                <g id="Group-10">
+                    <g id="Rectangle-2-Copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
                     </g>
-                    <g id="Button" fill="#FFFFFF" fill-opacity="1">
-                        <use filter="url(#filter-8)" xlink:href="#text-7"></use>
-                        <use xlink:href="#text-7"></use>
-                    </g>
+                    <rect id="Rectangle-2-Copy-3" fill="url(#linearGradient-6)" x="1" y="1" width="98" height="28" rx="5"></rect>
+                </g>
+                <g id="Button">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
                 </g>
             </g>
         </g>
