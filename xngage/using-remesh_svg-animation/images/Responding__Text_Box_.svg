@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="911px" height="1258px" viewBox="0 0 911 1258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Responding__Text_Box_</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="460" height="140" rx="5"></rect>
+        <filter x="-1.5%" y="-5.0%" width="103.0%" height="110.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.670588235   0 0 0 0 0.670588235   0 0 0 0 0.670588235  0 0 0 0.25 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="49.9941915%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#488EBF" offset="0%"></stop>
+            <stop stop-color="#12729D" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="100" height="30" rx="5"></rect>
+        <filter x="-0.5%" y="-1.7%" width="101.0%" height="106.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50.0074267%" y1="100%" x2="50%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#1D84CE" offset="0%"></stop>
+            <stop stop-color="#1680CB" stop-opacity="0.9" offset="14.6464445%"></stop>
+            <stop stop-color="#1680CB" stop-opacity="0.85" offset="21.9168527%"></stop>
+            <stop stop-color="#5DA7D9" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-7" font-family="Karla-Regular, Karla" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+            <tspan x="29.896" y="20">SEND</tspan>
+        </text>
+        <filter x="-0.9%" y="-7.5%" width="101.7%" height="110.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Responding__Text_Box_">
+            <g id="U.I.-Imagery/Live-Conversation-Illustration-(Using-Remesh)" transform="translate(46.000000, -15.000000)">
+                <g>
+                    <g id="Chat-Box" transform="translate(181.000000, 800.000000)">
+                        <g>
+                            <g id="Universal/Pop-up-Module-Background/Dark" transform="translate(10.000000, 5.000100)">
+                                <g id="Page-1"></g>
+                            </g>
+                            <g id="Thought-Options" transform="translate(30.000000, 97.000000)">
+                                <g id="A">
+                                    <g id="Conversation/Chat-Box/Response-Voting-Boxes/Default">
+                                        <g id="Vote">
+                                            <g id="Text-Field/Text-Box/Medium/Active,-Typing">
+                                                <g id="Text-Field/Form-Field/Medium/Active,-Typing">
+                                                    <g id="Field">
+                                                        <g>
+                                                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                                            <rect stroke="#74BDE2" stroke-width="1" x="0.5" y="0.5" width="459" height="139" rx="5"></rect>
+                                                            <rect stroke-opacity="0.75" stroke="#B8E5FF" stroke-width="2" x="-1" y="-1" width="462" height="142" rx="5"></rect>
+                                                        </g>
+                                                        <text id="Helper-Text" font-family="Karla-Italic, Karla" font-size="15" font-style="italic" font-weight="normal" line-spacing="18"></text>
+                                                        <text id="Text" font-family="Karla-Regular, Karla" font-size="15" font-weight="normal" line-spacing="18"></text>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Conversation/Pending-&amp;-Time-Remaining/Circular-Countdown/Participant-View-Copy" transform="translate(550.000000, 71.000000)">
+                                <g id="Timer/Live-(small)-Copy" transform="translate(0.000000, -0.000000)"></g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="In-Between-Dots" transform="translate(473.000000, 748.000000)"></g>
+                    <g id="Heatmap" transform="translate(136.000000, 325.000000)">
+                        <g transform="translate(213.000000, 6.000000)" id="Heatmap-Copy-2">
+                            <g transform="translate(0.000000, 21.000000)">
+                                <g id="Dots"></g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Question" transform="translate(2.000000, 30.000000)">
+                        <g id=".messages-list-copy-9" transform="translate(120.000000, 25.000000)">
+                            <g id="Message">
+                                <g id="Square"></g>
+                            </g>
+                        </g>
+                        <g id="Avatar/Moderator-Copy" transform="translate(0.000000, 25.000000)">
+                            <g id="Page-1"></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Buttons/Primary/Big/Default" transform="translate(617.000000, 1042.000000)">
+                <g id="Buttons/Create-Conversation/Default-Copy-12">
+                    <g id="Group-10">
+                        <g id="Rectangle-2-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <rect id="Rectangle-2-Copy-3" fill="url(#linearGradient-6)" x="1" y="1" width="98" height="28" rx="5"></rect>
+                    </g>
+                    <g id="Button" fill="#FFFFFF" fill-opacity="1">
+                        <use filter="url(#filter-8)" xlink:href="#text-7"></use>
+                        <use xlink:href="#text-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

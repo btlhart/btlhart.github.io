@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="911px" height="1258px" viewBox="0 0 911 1258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Voting__2_</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="460" height="90" rx="6"></rect>
+        <filter x="-0.8%" y="-2.8%" width="101.5%" height="108.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="460" height="90" rx="6"></rect>
+        <filter x="-0.8%" y="-2.8%" width="101.5%" height="108.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M60,0 L453.995786,0 C457.311822,0 460,2.69352123 460,6.0098334 L460,83.9901666 C460,87.3093059 457.313168,90 453.995786,90 L60,90 L60,0 Z" id="path-5"></path>
+        <path d="M0,6.0098334 C0,2.69069406 2.69463714,0 6.0000383,0 L60,0 L60,90 L6.0000383,90 C2.68630865,90 0,87.3064788 0,83.9901666 L0,6.0098334 Z" id="path-6"></path>
+        <path d="M60,0 L453.995786,0 C457.311822,0 460,2.69352123 460,6.0098334 L460,83.9901666 C460,87.3093059 457.313168,90 453.995786,90 L60,90 L60,0 Z" id="path-7"></path>
+        <rect id="path-8" x="75" y="30" width="370" height="10" rx="5"></rect>
+        <filter x="-0.2%" y="-7.5%" width="100.4%" height="130.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-10" x="75" y="130" width="370" height="10" rx="5"></rect>
+        <filter x="-0.2%" y="-7.5%" width="100.4%" height="130.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="1.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-12" x="75" y="50" width="331" height="10" rx="5"></rect>
+        <filter x="-0.2%" y="-7.5%" width="100.5%" height="130.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="1.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-14" x="75" y="150" width="130" height="10" rx="5"></rect>
+        <filter x="-0.6%" y="-7.5%" width="101.2%" height="130.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="1.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M0,6.0098334 C0,2.69069406 2.69463714,0 6.0000383,0 L60,0 L60,90 L6.0000383,90 C2.68630865,90 0,87.3064788 0,83.9901666 L0,6.0098334 Z" id="path-16"></path>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Voting__2_">
+            <g id="U.I.-Imagery/Live-Conversation-Illustration-(Using-Remesh)" transform="translate(46.000000, -15.000000)">
+                <g>
+                    <g id="Chat-Box" transform="translate(181.000000, 800.000000)">
+                        <g>
+                            <g id="Universal/Pop-up-Module-Background/Dark" transform="translate(10.000000, 5.000100)">
+                                <g id="Page-1"></g>
+                            </g>
+                            <g id="Universal/Shadow-Stack/Rounded-Corners/Light/2" transform="translate(30.000000, 197.000000)">
+                                <g>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                    <use fill="#F6F6F6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                </g>
+                            </g>
+                            <g id="Universal/Shadow-Stack/Rounded-Corners/Light/2" transform="translate(30.000000, 97.000000)">
+                                <g>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                                    <use fill="#F6F6F6" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                </g>
+                            </g>
+                            <g id="Thought-Options" transform="translate(30.000000, 97.000000)">
+                                <g id="B" transform="translate(0.000000, 100.000000)">
+                                    <g id="Conversation/Chat-Box/Response-Voting-Boxes/Default-Copy-2">
+                                        <g id="Vote">
+                                            <g id="Rectangle-3">
+                                                <use fill="#5BD013" xlink:href="#path-5"></use>
+                                                <use fill="#37C605" xlink:href="#path-5"></use>
+                                            </g>
+                                            <g id="Side-Label">
+                                                <g id="Rectangle-3-Copy-8">
+                                                    <use fill="#478C50" xlink:href="#path-6"></use>
+                                                    <use fill="#30AE04" xlink:href="#path-6"></use>
+                                                </g>
+                                                <text id="A" font-family="Karla-Bold, Karla" font-size="40" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+                                                    <tspan x="14" y="58.4802246">B</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                                <g id="A">
+                                    <g id="Conversation/Chat-Box/Response-Voting-Boxes/Default">
+                                        <g id="Vote">
+                                            <g id="Rectangle-3">
+                                                <use fill="#5BD013" xlink:href="#path-7"></use>
+                                                <use fill="#37C605" xlink:href="#path-7"></use>
+                                            </g>
+                                            <g id="Rectangle-2-Copy-2">
+                                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                                <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                            </g>
+                                            <g id="Rectangle-2-Copy-4">
+                                                <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                                                <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                            </g>
+                                            <g id="Rectangle-2-Copy-3">
+                                                <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                                                <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" xlink:href="#path-12"></use>
+                                            </g>
+                                            <g id="Rectangle-2-Copy-5">
+                                                <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                                                <use fill-opacity="0.4" fill="#000000" fill-rule="evenodd" xlink:href="#path-14"></use>
+                                            </g>
+                                            <g id="Side-Label">
+                                                <g id="Rectangle-3-Copy-8">
+                                                    <use fill="#478C50" xlink:href="#path-16"></use>
+                                                    <use fill="#30AE04" xlink:href="#path-16"></use>
+                                                </g>
+                                                <text id="A" font-family="Karla-Bold, Karla" font-size="40" font-weight="bold" line-spacing="40" fill="#FFFFFF">
+                                                    <tspan x="14.44" y="58.4802246">A</tspan>
+                                                </text>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Conversation/Pending-&amp;-Time-Remaining/Circular-Countdown/Participant-View-Copy" transform="translate(550.000000, 71.000000)">
+                                <g id="Timer/Live-(small)-Copy" transform="translate(0.000000, -0.000000)"></g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="In-Between-Dots" transform="translate(473.000000, 748.000000)"></g>
+                    <g id="Heatmap" transform="translate(136.000000, 325.000000)">
+                        <g transform="translate(213.000000, 6.000000)" id="Heatmap-Copy-2">
+                            <g transform="translate(0.000000, 21.000000)">
+                                <g id="Dots"></g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Question" transform="translate(2.000000, 30.000000)">
+                        <g id=".messages-list-copy-9" transform="translate(120.000000, 25.000000)">
+                            <g id="Message">
+                                <g id="Square"></g>
+                            </g>
+                        </g>
+                        <g id="Avatar/Moderator-Copy" transform="translate(0.000000, 25.000000)">
+                            <g id="Page-1"></g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
