@@ -274,7 +274,7 @@
 }
 
 .btn.solid-btn {
-    background: green;
+    background: #2B78E4;
     text-align: center;
     padding: 15px 25px;
     -webkit-box-sizing: border-box;
@@ -290,7 +290,8 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     position: relative;
-    font-family: "LatoWebBold"
+    font-family: "LatoWebBold";
+    transition: all .15s ease;
 }
 
 @media only screen and (max-width: 549px) {
