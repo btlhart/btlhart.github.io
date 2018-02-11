@@ -292,6 +292,8 @@
     position: relative;
     font-family: "LatoWebBold";
     transition: all .15s ease;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
 }
 
 @media only screen and (max-width: 549px) {
@@ -329,7 +331,8 @@
 .btn.solid-btn:hover {
     background: #2E80F4;
     -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-1px);
 }
 
 .jumbotron .btn.solid-btn:hover {
