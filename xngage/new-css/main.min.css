@@ -2012,7 +2012,9 @@ header .main-nav .btn:hover {
         transition: max-height .2s, .3s ease;
         background: #F4F5F7;
         text-align: left;
-        overflow: hidden
+        overflow: hidden;
+        border-bottom: solid 1px transparent;
+        border-color: #ccc
     }
     header .main-nav ul {
         padding: 10px 0
