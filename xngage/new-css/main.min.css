@@ -2503,11 +2503,6 @@ header .main-nav .btn:hover {
 }
 
 @media only screen and (min-width: 768px) {
-    .contact-us-overlay {
-        border-radius: 0px;
-        -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-    }
     .contact-us-overlay .captcha-container {
         top: -115px;
         right: 0.5rem;
@@ -2515,6 +2510,14 @@ header .main-nav .btn:hover {
     }
     .contact-us-overlay .captcha-container>div {
         position: absolute
+    }
+}
+
+@media only screen and (max-width: 549px) {
+    .contact-us-overlay {
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
     }
 }
 
