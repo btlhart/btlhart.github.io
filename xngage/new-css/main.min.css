@@ -1318,7 +1318,8 @@ img {
     -moz-border-radius: 3px;
     padding: 3px 5px;
     -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12);
-    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12)
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12);
+    transition: all 0.15s ease
 }
 
 .tag.selected, .tag:hover {
@@ -1328,7 +1329,8 @@ img {
 
 .tag:hover {
     -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.25)
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.25);
+    transform: translateY(-1px)
 }
 
 .animate-text-component {
