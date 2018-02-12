@@ -1095,7 +1095,7 @@ img {
     transition: all .15s ease
 }
 
-.card-small .card-small-img:hover {
+.card-small-img:hover {
     -webkit-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.19), 0 6px 6px 0 rgba(0,0,0,0.23);
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.19), 0 6px 6px 0 rgba(0,0,0,0.23);
     transform: translateY(-1px)
