@@ -993,7 +993,6 @@ img {
 }
 
 .card .info-card {
-    border-top: solid 1px #ABABAB;
     padding: 0px 20px 35px
 }
 
@@ -1052,6 +1051,9 @@ img {
     }
     .card.inline-image .info-card {
         padding: 20px
+    }
+    .card .info-card {
+        border-top: solid 1px #ABABAB;
     }
 }
 
@@ -2723,9 +2725,6 @@ header .main-nav .btn:hover {
 }
 
 .quote-component {
-    border: solid 1px #ccc;
-    border-left: 0;
-    border-right: 0;
     padding: 20px 0
 }
 
