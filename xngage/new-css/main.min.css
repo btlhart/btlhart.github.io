@@ -263,7 +263,8 @@
 
 .btn.btn-large {
     min-height: 30px;
-    min-width: 93px
+    min-width: 93px;
+    font-size: 12px
 }
 
 .btn.btn-large.btn-icon {
