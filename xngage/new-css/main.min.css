@@ -1107,8 +1107,8 @@ img {
     top: 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    width: auto;
-    height: 100%
+    width: 100%;
+    height: auto
 }
 
 .card-small .card-small-info {
