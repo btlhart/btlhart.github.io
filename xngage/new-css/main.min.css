@@ -2432,7 +2432,7 @@ header .main-nav .btn:hover {
         max-height: 100%;
         border-radius: 0px;
         -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
+        -moz-border-radius: 0px
     }
     .overlay .overlay-close {
         top: 15px;
