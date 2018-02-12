@@ -815,7 +815,7 @@ a.full-link+div a, a.full-link+div+div a {
     z-index: 1
 }
 
-a.full-link:hover ~ .card-small-img, a.full-link:hover ~ .col-xs-12.card-small-container ~ .card-small-img {
+a.full-link:hover ~ .card-small-img {
     -webkit-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.19), 0 6px 6px 0 rgba(0,0,0,0.23);
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.19), 0 6px 6px 0 rgba(0,0,0,0.23);
     transform: translateY(-1px)
