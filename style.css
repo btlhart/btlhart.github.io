@@ -259,7 +259,7 @@ a {
     border-radius: 6px;
     box-shadow: inset 0px 0px 0px 1.3px #ffffff;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .thumbnails-img:hover {
     box-shadow: inset 0px 0px 0px 1.3px #ffffff, 0px 1px 1px rgba(0, 0, 0, 0.12);
@@ -272,7 +272,7 @@ a {
     border-radius: 6px;
     box-shadow: inset 0px 0px 0px 1.3px #ffffff;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 .thumbnails-concept:hover {
     box-shadow: inset 0px 0px 0px 1.3px #ffffff, 0px 1px 1px rgba(0, 0, 0, 0.12);
@@ -286,7 +286,7 @@ a {
     box-shadow: inset 0px 0px 0px 1.3px #ffffff;
     margin-top: 24px;
     width: 100%;
-    height: auto;
+    height: calc(100% -  24px);
 }
 .thumbnails-remesht:hover {
     box-shadow: inset 0px 0px 0px 1.3px #ffffff, 0px 1px 1px rgba(0, 0, 0, 0.12);
