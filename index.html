@@ -343,6 +343,24 @@
     </div><!-- End Concept Work -->
   </div><!-- End Content Container -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script> 
-  <script src="jquery.fancybox.min.js"></script>
+  <script src="jquery.fancybox.min.js"></script> 
+  <script>
+
+    $('[data-fancybox="gallery"]').fancybox({
+        loop: false,
+        buttons: [
+    // "zoom",
+    //"share",
+    // "slideShow",
+    //"fullScreen",
+    //"download",
+    // "thumbs",
+    "close"],
+    animationEffect: "fade",
+    animationDuration: 600,
+    transitionEffect: "fade",
+    transitionDuration: 600,
+  });
+  </script>
 </body>
 </html>

@@ -128,7 +128,7 @@ a {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 648px;
-    padding: 120px 8px 64px 8px;
+    padding: 120px 16px 64px 16px;
 }
 
 .content-container {
@@ -136,13 +136,13 @@ a {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 648px;
-    padding: 0 8px;
+    padding: 0 16px;
 }
 
 .image-wide {
     margin: 64px auto;
     max-width: 996px;
-    padding: 0 8px;
+    padding: 0 16px;
 }
 
 .card-note {
@@ -183,6 +183,12 @@ a {
     border-radius: 6px 6px 0 0;
     height: 144px;
     width: 100%;
+}
+
+/* F A N C Y B O X */
+
+.fancybox-caption {
+    background: none !important;
 }
 
 /* T I M E L I N E */
@@ -388,7 +394,7 @@ a {
         height: 48px;
     }
     .hero {
-        padding: 80px 8px 64px 8px;
+        padding: 80px 16px 64px 16px;
     }
     .mobile-stretch {
         flex: 1;
