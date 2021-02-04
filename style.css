@@ -124,6 +124,7 @@ a {
 /* C O N T E N T  C O N T A I N E R S */
 
 .hero {
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
