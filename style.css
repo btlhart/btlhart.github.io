@@ -291,15 +291,14 @@ a {
 .thumbnails-remesh {
     border-radius: 6px;
     box-shadow: inset 0px 0px 0px 1.3px #ffffff;
-    /* margin-top: 24px; */
     width: 100%;
-    /* height: calc(100% -  24px); */
 }
 .thumbnails-remesht:hover {
     box-shadow: inset 0px 0px 0px 1.3px #ffffff, 0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 .remesh-link {
     /* flex: 1 0 242px; */
+    align-items: flex-start;
     max-width: 22%;
 }
 
