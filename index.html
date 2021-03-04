@@ -41,7 +41,12 @@
          href="about.html">
     <div class="primary-btn top-24 mobile-stretch">
       Learn More and Connect
-    </div></a>
+    </div></a> <a class="project-preview top-64"
+         data-caption=""
+         data-fancybox="projects-preview"
+         href="images/projects-preview.png"><img alt=""
+         src="images/projects-preview-thumb.png"
+         style="width: 100%;"></a>
   </div><!-- End Hero -->
   <!-- Content Container -->
   <div class="content-container"
@@ -99,7 +104,7 @@
           &nbsp;
         </div>
         <div class="work-subtitle-h1">
-          Lead design for product and marketing from pre-funding to Series A
+          First Designer — Lead product design and marketing from pre-funding to Series A
         </div>
         <div class="work-thumbnails top-16">
           <div style="display: flex; justify-content: inherit;">
@@ -345,7 +350,7 @@
           &nbsp;
         </div>
         <div class="work-subtitle-h1">
-          Early stage tech startup product, brand, and communication design
+          Product, brand, and communication design for early stage tech startup
         </div>
         <div class="work-thumbnails top-16">
           <div style="display: flex; justify-content: inherit;">
@@ -399,7 +404,7 @@
           &nbsp;
         </div>
         <div class="work-subtitle-h1">
-          Startup accelerator pitch, branding, and product design for cohort portfolio companies
+          Pitch, branding, and product design for startup accelerator cohort portfolio companies
         </div>
         <div class="top-56"></div>
       </div>
@@ -625,6 +630,39 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  $('[data-fancybox="projects-preview"]').fancybox({
+    loop: false,
+    buttons: [
+    // "zoom",
+    //"share",
+    // "slideShow",
+    //"fullScreen",
+    //"download",
+    // "thumbs",
+    "close"],
+    animationEffect: "fade",
+    animationDuration: 600,
+    transitionEffect: "fade",
+    transitionDuration: 600,
+  });
 
   $('[data-fancybox="remesh"]').fancybox({
     loop: false,
