@@ -227,10 +227,13 @@ a {
     margin-right: 24px;
 }
 .ruler-badge {
-    background: #F6F6F6;
+    align-items: center;
+    background: #f6f6f6;
     box-shadow: inset 0px 0px 0px 1px #e6e6e6;
     border-radius: 20px;
+    display: flex;
     height: 40px;
+    justify-content: center;
     width: 40px;
 }
 .ruler-border {
@@ -388,6 +391,12 @@ a {
 }
 .icon-document {
     background-image: url(images/icons-document.svg);
+}
+.icon-school {
+    background-image: url(images/icons-school.svg);
+}
+.icon-work {
+    background-image: url(images/icons-work.svg);
 }
 
 .icon {
