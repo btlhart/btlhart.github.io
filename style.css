@@ -119,6 +119,8 @@ a {
 
 .nav-btn-inactive {
     color: #404040;
+    transition: .02s;
+    transition-timing-function: ease;
 }
 
 .nav-btn-inactive:hover {
@@ -156,16 +158,18 @@ a {
     /* background-color: rgba(255, 255, 255, 0.92); */
     background-color: #ffffff;
     border-radius: 6px;
-    box-shadow: inset 0px 0px 0px 1px #e6e6e6;
+    /* box-shadow: inset 0px 0px 0px 1px #e6e6e6; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     display: flex;
     padding: 8px;
     width: 100%;
+    transition: box-shadow .25s;
 }
 .project-preview:hover {
     align-items: flex-start;
     /* background-color: rgba(255, 255, 255, 0.92); */
-    border-radius: 2px;
-    box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
+    /* box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12); */
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
     padding: 8px;
 }
 
@@ -179,13 +183,19 @@ a {
     justify-content: center;
     margin: 0 auto;
     padding: 24px;
+    transition: .35s;
+    transition-timing-function: ease;
 }
 .card-note:hover {
     box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
 }
 .card-note > .primary-btn:hover {
-    background: #f1f1f1;
-    box-shadow: inset 0px 0px 0px 1px #e6e6e6;
+    background: #057AFF;
+    box-shadow: inset 0px 0px 0px 0px #057AFF;
+    color: #ffffff;
+}
+.card-note > .primary-btn:hover .icon {
+    filter: invert(100%) sepia(0%) saturate(4219%) hue-rotate(81deg) brightness(110%) contrast(87%);
 }
 
 .card-prototype-container {
@@ -347,9 +357,12 @@ a {
     justify-content: center;
     line-height: 16px;
     padding: 12px 32px;
+    transition: .08s;
+    transition-timing-function: ease-out;
 }
 
 .primary-btn:hover {
+    background: #FFFFFF;
     box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
     color: #222222;
 }
@@ -409,6 +422,8 @@ a {
     height: 16px;
     margin-right: 8px;
     width: 16px;
+    transition: .08s;
+    transition-timing-function: ease;
   }
 
 .primary-btn:hover .icon {
