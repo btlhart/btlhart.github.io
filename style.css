@@ -155,22 +155,23 @@ a {
 
 .project-preview {
     align-items: flex-start;
-    /* background-color: rgba(255, 255, 255, 0.92); */
-    background-color: #ffffff;
+    background: rgba(246, 246, 246, 0.5);
     border-radius: 6px;
-    /* box-shadow: inset 0px 0px 0px 1px #e6e6e6; */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: inset 0px 0px 0px 1px #e6e6e6;
     display: flex;
     padding: 8px;
     width: 100%;
-    transition: box-shadow .25s;
+    /* transition: box-shadow .1s; */
+    transition: .08s;
+    transition-timing-function: ease-out;
 }
 .project-preview:hover {
     align-items: flex-start;
-    /* background-color: rgba(255, 255, 255, 0.92); */
+    background-color: #ffffff;
     /* box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12); */
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
     padding: 8px;
+    /* transform: translate(0px, -1px); */
 }
 
 .card-note {
@@ -183,8 +184,8 @@ a {
     justify-content: center;
     margin: 0 auto;
     padding: 24px;
-    transition: .35s;
-    transition-timing-function: ease;
+    transition: .08s;
+    transition-timing-function: ease-out;
 }
 .card-note:hover {
     box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
@@ -272,6 +273,7 @@ a {
     color: #404040;
     font-size: 12px;
     font-weight: bold;
+    letter-spacing: .05em;
     text-align: end;
 }
 .work-hero {
@@ -413,6 +415,9 @@ a {
 }
 .icon-work {
     background-image: url(images/icons-work.svg);
+}
+.icon-next {
+    background-image: url(images/icons-next.svg);
 }
 
 .icon {
