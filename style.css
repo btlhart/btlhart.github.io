@@ -136,7 +136,7 @@ a {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 648px;
-    padding: 120px 16px 112px 16px;
+    padding: 120px 16px 0 16px;
 }
 
 .content-container {
@@ -155,7 +155,7 @@ a {
 
 .project-preview {
     align-items: flex-start;
-    background: rgba(246, 246, 246, 0.5);
+    background: #ffffff;
     border-radius: 6px;
     box-shadow: inset 0px 0px 0px 1px #e6e6e6;
     display: flex;
@@ -454,7 +454,7 @@ a {
         height: 48px;
     }
     .hero {
-        padding: 80px 16px 64px 16px;
+        padding: 80px 16px 0 16px;
     }
     .mobile-stretch {
         flex: 1;
