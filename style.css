@@ -158,9 +158,18 @@ a {
     padding: 0 16px;
 }
 
+.stripe {
+    width: calc(100% - 200px); 
+    background: #e6e6e6; 
+    padding: 64px 24px 40px; 
+    margin: 32px auto 0; 
+    opacity: .9; 
+    border-radius: 20px;
+}
+
 .project-preview {
     align-items: flex-start;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.80);
     border-radius: 6px;
     box-shadow: inset 0px 0px 0px 1px #e6e6e6;
     display: flex;
@@ -204,11 +213,11 @@ a {
     filter: invert(100%) sepia(0%) saturate(4219%) hue-rotate(81deg) brightness(110%) contrast(87%);
 }
 .card-note:hover > .dot {
-    color: rgb(17, 186, 17);
+    color: #035bc1;
 }
 
 .dot {
-    color: #057AFF;
+    color: #ababab;
     font-size: 20px; 
     line-height: 20px; 
     text-align: center; 
@@ -519,4 +528,10 @@ a {
     .spacer {
         margin-top: 64px;
       }
+
+      .stripe {
+        width: calc(100% - 64px); 
+        padding: 64px 16px 40px; 
+        margin: 32px auto 0; 
+    }
 }/* E N D   M O B I L E */
