@@ -173,7 +173,7 @@ a {
     box-shadow: inset 0px 0px 0px 1px #e6e6e6;
     border-radius: 6px;
     display: flex;
-    padding: 8px;
+    padding: 6px;
     width: 100%;
     /* transition: box-shadow .1s; */
     transition: .08s;
@@ -181,10 +181,10 @@ a {
 }
 .project-preview:hover {
     align-items: flex-start;
-    background: #F6F6F6;
+    background: #FFFFFF;
     /* box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12); */
     box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
-    padding: 8px;
+    padding: 6px;
     /* transform: translate(0px, -1px); */
 }
 
