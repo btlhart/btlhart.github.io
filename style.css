@@ -187,6 +187,9 @@ a {
     padding: 6px;
     /* transform: translate(0px, -1px); */
 }
+.project-preview:active {
+    background: #FFFFFF;
+}
 
 .card-note {
     background-color: #ffffff;
@@ -199,17 +202,28 @@ a {
     margin: 0 auto;
     padding: 24px;
     transition: .08s;
-    transition-timing-function: ease-out;
+    transition-timing-function: ease;
 }
 .card-note:hover {
     box-shadow: inset 0px 0px 0px 1px #e6e6e6, 0px 1px 5px rgba(0, 0, 0, 0.12);
+}
+.card-note:active {
+    box-shadow: inset 0px 0px 0px 1px #e6e6e6;
 }
 .card-note > .primary-btn:hover {
     background: #057AFF;
     box-shadow: inset 0px 0px 0px 0px #057AFF;
     color: #ffffff;
 }
+.card-note:active > .primary-btn {
+    background: #057AFF;
+    box-shadow: inset 0px 0px 0px 0px #057AFF;
+    color: #ffffff;
+}
 .card-note > .primary-btn:hover .icon {
+    filter: invert(100%) sepia(0%) saturate(4219%) hue-rotate(81deg) brightness(110%) contrast(87%);
+}
+.card-note:active > .primary-btn .icon {
     filter: invert(100%) sepia(0%) saturate(4219%) hue-rotate(81deg) brightness(110%) contrast(87%);
 }
 .card-note:hover > .dot {
