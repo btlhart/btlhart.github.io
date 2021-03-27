@@ -460,6 +460,9 @@ a {
 .icon-next {
     background-image: url(images/icons-next.svg);
 }
+.icon-view {
+    background-image: url(images/icons-view.svg);
+}
 
 .icon {
     background-size: cover;
@@ -475,6 +478,19 @@ a {
 .primary-btn:hover .icon {
     filter: invert(10%) sepia(21%) saturate(4%) hue-rotate(18deg) brightness(105%) contrast(94%);
 }
+.primary-btn:hover .icon-instagram {
+    filter: invert(42%) sepia(73%) saturate(2153%) hue-rotate(298deg) brightness(100%) contrast(93%);
+}
+.primary-btn:hover .icon-twitter {
+    filter: invert(38%) sepia(98%) saturate(1404%) hue-rotate(181deg) brightness(102%) contrast(108%);
+}
+.primary-btn:hover .icon-linkedin {
+    filter: invert(44%) sepia(69%) saturate(4894%) hue-rotate(204deg) brightness(109%) contrast(98%);
+}
+.primary-btn:hover .icon-email {
+    /* filter: none; */
+}
+
 
 /* I M A G E S */
 
