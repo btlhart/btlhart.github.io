@@ -276,6 +276,10 @@ a {
     background: none !important;
 }
 
+.fancybox-slide--iframe .fancybox-content {
+    background: none !important;
+}
+
 /* T I M E L I N E */
 
 .container-timeline {
