@@ -505,6 +505,7 @@ a {
 }
 .primary-btn:hover .icon-email {
     /* filter: none; */
+    filter: invert(44%) sepia(69%) saturate(4894%) hue-rotate(204deg) brightness(109%) contrast(98%);
 }
 .primary-btn:hover .icon-blue {
     filter: invert(34%) sepia(95%) saturate(3284%) hue-rotate(202deg) brightness(103%) contrast(104%);
