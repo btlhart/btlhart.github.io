@@ -328,7 +328,7 @@ a {
     font-size: 12px;
     font-weight: bold;
     letter-spacing: .03em;
-    text-align: end;
+    /* text-align: end; */
 }
 .work-hero {
     background-color: #c4c4c4;
