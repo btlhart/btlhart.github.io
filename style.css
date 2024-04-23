@@ -565,7 +565,7 @@ a {
         height: 48px;
     }
     .hero {
-        padding: 80px 16px 0 16px;
+        padding: 32px 16px 0 16px;
     }
     .mobile-stretch {
         flex: 1;
@@ -594,7 +594,7 @@ a {
     .contact {
         flex: 0 0 200px;
         flex-wrap: wrap;
-        height: 184px;
+        height: 144px;
         align-content: space-between;
         margin: 40px auto 0 auto;
     }
