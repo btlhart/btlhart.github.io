@@ -339,6 +339,7 @@ a {
     height: 200px;
     margin: 16px 0;
     width: 100%;
+    box-shadow: inset 0px 0px 0px 1px #00000012;
 }
 .work-subtitle-h1 {
     color: #404040;
