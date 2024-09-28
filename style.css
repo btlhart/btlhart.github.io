@@ -618,7 +618,7 @@ a {
     .contact {
         flex: 0 0 200px;
         flex-wrap: wrap;
-        height: 144px;
+        height: 92px;
         align-content: space-between;
         margin: 40px auto 0 auto;
     }
